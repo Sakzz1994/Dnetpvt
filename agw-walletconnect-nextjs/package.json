@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@reown/appkit": "^1.7.2",
-    "@reown/appkit-adapter-wagmi": "^1.7.2",
+    "@reown/appkit": "^1.8.9",
+    "@reown/appkit-adapter-wagmi": "^1.8.9",
     "@tanstack/react-query": "^5.74.0",
     "@wagmi/core": "^2.16.7",
     "next": "15.3.0",
