@@ -12,11 +12,11 @@
     "@abstract-foundation/agw-client": "latest",
     "@abstract-foundation/agw-react": "latest",
     "@tanstack/react-query": "^5.71.5",
-    "next": "15.2.4",
+    "next": "16.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "viem": "^2.25.0",
-    "wagmi": "^2.14.16"
+    "wagmi": "^3.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
