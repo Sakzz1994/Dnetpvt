@@ -12,10 +12,12 @@
     "@abstract-foundation/agw-client": "^1.8.6",
     "@abstract-foundation/agw-web": "^1.8.6",
     "@privy-io/cross-app-connect": "^0.2.2",
+    "@vercel/analytics": "^2.0.1",
     "buffer": "^6.0.3",
     "mipd": "^0.0.7",
     "viem": "^2.31.7",
-    "vue": "^3.5.17"
+    "vue": "^3.5.17",
+    "vue-router": "^5.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",

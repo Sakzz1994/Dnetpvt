@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { headers } from "next/headers"; // added
 import ContextProvider from "@/context";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "AppKit Example App",
@@ -21,6 +22,7 @@ export default async function RootLayout({
     <html lang="en">
       <body>
         <ContextProvider cookies={cookies}>{children}</ContextProvider>
+        <Analytics />
       </body>
     </html>
   );

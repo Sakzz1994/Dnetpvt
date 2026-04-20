@@ -3,12 +3,14 @@ import { useWallet } from './composables/useWallet'
 import WalletConnect from './components/WalletConnect.vue'
 import ConnectedWallet from './components/ConnectedWallet.vue'
 import BackgroundEffects from './components/BackgroundEffects.vue'
+import { Analytics } from '@vercel/analytics/vue'
 
 const { address } = useWallet()
 </script>
 
 <template>
   <div class="relative grid grid-rows-[1fr_auto] min-h-screen p-8 pb-20 sm:p-20 bg-black overflow-hidden" style="font-family: var(--font-avenue-mono)">
+    <Analytics />
     <BackgroundEffects />
 
     <main class="relative flex flex-col items-center justify-center z-10 text-white text-center">

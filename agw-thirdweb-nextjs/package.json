@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@privy-io/cross-app-connect": "^0.1.8",
-    "@abstract-foundation/agw-react": "^1.6.2",
     "@abstract-foundation/agw-client": "^1.6.2",
+    "@abstract-foundation/agw-react": "^1.6.2",
+    "@privy-io/cross-app-connect": "^0.1.8",
+    "@vercel/analytics": "^2.0.1",
     "encoding": "^0.1.13",
     "next": "15.5.10",
     "pino-pretty": "^11.2.2",
