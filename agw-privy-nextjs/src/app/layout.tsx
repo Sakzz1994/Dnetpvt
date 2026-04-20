@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Analytics } from '@vercel/analytics/next';
 import "./globals.css";
 import NextAbstractWalletProvider from "../components/NextAbstractWalletProvider";
 
@@ -50,6 +51,7 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} ${avenueMono.variable} ${roobert.variable} antialiased`}
         >
           {children}
+          <Analytics />
         </body>
       </NextAbstractWalletProvider>
     </html>
