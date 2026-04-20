@@ -19,7 +19,7 @@
     "react-dom": "^18",
     "thirdweb": "^5.93.11",
     "viem": "^2.24.3",
-    "wagmi": "^2.14.16"
+    "wagmi": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
