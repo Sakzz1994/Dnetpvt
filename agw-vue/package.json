@@ -14,14 +14,14 @@
     "@privy-io/cross-app-connect": "^0.2.2",
     "buffer": "^6.0.3",
     "mipd": "^0.0.7",
-    "viem": "^2.31.7",
+    "viem": "^2.52.2",
     "vue": "^3.5.17"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
+    "postcss": "^8.5.15",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.8.3",
     "vite": "^7.0.4",
