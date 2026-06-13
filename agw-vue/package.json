@@ -14,7 +14,7 @@
     "@privy-io/cross-app-connect": "^0.2.2",
     "buffer": "^6.0.3",
     "mipd": "^0.0.7",
-    "viem": "^2.31.7",
+    "viem": "^2.52.2",
     "vue": "^3.5.17"
   },
   "devDependencies": {
